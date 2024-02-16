@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShowPicture.MainPage">
+
+    <VerticalStackLayout Spacing="30" Padding="20">
+        <Label Text = "Button clicked app"
+               FontSize ="30"
+               HorizontalTextAlignment="Center"/>
+        <!--Button Text="Button 1" BackgroundColor="Black" Clicked="Button1Clicked"  >-->
+        <Button x:Name = "status" Text="Click Me" Clicked="Button_Clicked">
+    <Button.ImageSource>
+        <FileImageSource File="Picture1.png" />
+    </Button.ImageSource>
+</Button>
+        <Button Text="Button 2" BackgroundColor="Grey" Clicked="Button2Clicked" />
+        <Button Text="Button 3" BackgroundColor="DarkGray" Clicked="Button3Clicked" />
+
+        <Label x:Name="textToShowing"
+               Text="Which button do you click on?"
+               HorizontalTextAlignment="Center"
+               TextColor="Blue"/>
+
+        <Image x:Name="imageDisplay" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
+
