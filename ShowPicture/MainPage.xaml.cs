@@ -15,10 +15,18 @@ public partial class MainPage : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-        status.ImageSource = ImageSource.FromFile("Picture1.png");
+        try
+        {
+            status.ImageSource = ImageSource.FromFile("picture.png");
+        }
+        catch (Exception ex)
+        {
+            // Handle any exceptions (e.g., file not found)
+            Console.WriteLine($"Error loading image: {ex.Message}");
+        }
     }
 
-    private void Button2Clicked(object sender, EventArgs e)
+    /*private void Button2Clicked(object sender, EventArgs e)
     {
         UpdateLabel("Button 2 clicked");
     }
@@ -44,7 +52,7 @@ public partial class MainPage : ContentPage
 
         // Display the image
         imageDisplay.Source = imageSource;
-    }
+    }*/
 
 }
 

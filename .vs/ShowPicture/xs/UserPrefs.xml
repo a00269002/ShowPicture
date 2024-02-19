@@ -1,4 +1,26 @@
-﻿<Properties StartupConfiguration="{E8F40F2D-4B9D-4B90-9535-E15409A0A318}|Default">
-  <MonoDevelop.Ide.ItemProperties.ShowPicture FirstBuild="True" />
+﻿<Properties StartupConfiguration="{E8F40F2D-4B9D-4B90-9535-E15409A0A318}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="34.0.52" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ShowPicture PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShowPicture/MainPage.xaml.cs">
+    <Files>
+      <File FileName="ShowPicture/MainPage.xaml.cs" Line="27" Column="6" />
+      <File FileName="ShowPicture/MainPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ShowPicture" expanded="True">
+            <Node name="ShowPicture" expanded="True">
+              <Node name="MainPage.xaml.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>

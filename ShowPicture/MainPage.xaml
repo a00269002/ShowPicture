@@ -9,11 +9,11 @@
                HorizontalTextAlignment="Center"/>
         <!--Button Text="Button 1" BackgroundColor="Black" Clicked="Button1Clicked"  >-->
         <Button x:Name = "status" Text="Click Me" Clicked="Button_Clicked">
-    <Button.ImageSource>
-        <FileImageSource File="Picture1.png" />
-    </Button.ImageSource>
-</Button>
-        <Button Text="Button 2" BackgroundColor="Grey" Clicked="Button2Clicked" />
+            <Button.ImageSource>
+                <FileImageSource File="picture.png" />
+            </Button.ImageSource>
+        </Button>
+        <!--<Button Text="Button 2" BackgroundColor="Grey" Clicked="Button2Clicked" />
         <Button Text="Button 3" BackgroundColor="DarkGray" Clicked="Button3Clicked" />
 
         <Label x:Name="textToShowing"
@@ -21,7 +21,7 @@
                HorizontalTextAlignment="Center"
                TextColor="Blue"/>
 
-        <Image x:Name="imageDisplay" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+        <Image x:Name="imageDisplay" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />-->
 
     </VerticalStackLayout>
 
